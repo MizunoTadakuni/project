@@ -1,2 +1,4 @@
 class WhatIsGit:
-    pass
+    def show:
+        print('Git is difficult')
+

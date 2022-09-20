@@ -1,4 +1,3 @@
 class WhatIsGit:
-    def show:
-        print('Git is difficult')
-
+    def show(self):
+        print('Git is easy if you understand the basis.')

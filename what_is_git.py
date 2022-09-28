@@ -3,4 +3,4 @@ class WhatIsGit:
         print(f'https://{lang}.wikipedia.org/wiki/Git')
 
     def show(self):
-        print('if you understand the basis, Git is easy.')
+        print('If you understand the basis, Git is easy.')

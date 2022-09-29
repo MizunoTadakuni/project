@@ -3,4 +3,8 @@ class WhatIsGit:
         print(f'https://{lang}.wikipedia.org/wiki/Git')
 
     def show(self):
-        print('If you understand the basis, Git is easy.')
+        ans = input('Do you understand the basis? [yes/no]')
+        if(ans == "yes"):
+            print('Git is easy')
+        else:
+            print('Git is difficult...')

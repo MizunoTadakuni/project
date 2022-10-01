@@ -5,7 +5,7 @@ class WhatIsGit:
 
     def show(self):
         answer = input('Do you understand the basis of Git? [yes/no]')
-        if(answer == "yes"):
+        if(answer == "yes" or answer == "y"):
             print('Git is easy')
         else:
             print('Git is difficult...')

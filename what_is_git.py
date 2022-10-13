@@ -1,3 +1,6 @@
+import unicodedata
+
+
 class WhatIsGit:
     def about(self, lang = 'en'):
         # 式展開のためにシングルクオートを使う
@@ -9,3 +12,7 @@ class WhatIsGit:
             print('Git is easy')
         else:
             print('Git is difficult...')
+
+    def myInput(message):
+        planeAnswer = input(message)
+        return unicodedata.normalize("NFKC", planeAnswer)
